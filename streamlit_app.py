@@ -63,7 +63,7 @@ def add_client(first_name, last_name, office, phone, email, marital_status, bank
         bank_account,
         swift,
         tax_office,
-        tax_id,
+        tax_id.strip(),
         spouse_tax_id
     ]
     sheet1.append_row(new_row)
